@@ -37,7 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		127DDE312CE47B4B4AA6CB27 /* YMWLL.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YMWLL.podspec; path = ../YMWLL.podspec; sourceTree = "<group>"; };
+		127DDE312CE47B4B4AA6CB27 /* YMWLL.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YMWLL.podspec; path = ../YMWLL.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		14C0D5147F3E48437E022E24 /* Pods_YMWLL_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMWLL_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		37C3BCB861229C76B7B36EB9 /* Pods-YMWLL_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMWLL_Example.debug.xcconfig"; path = "Target Support Files/Pods-YMWLL_Example/Pods-YMWLL_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		3E6BBCD8387B1563C2C2E0E9 /* Pods_YMWLL_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YMWLL_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,10 +63,10 @@
 		625C633D095B89E7F8107D24 /* Pods-YMWLL_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMWLL_Tests.release.xcconfig"; path = "Target Support Files/Pods-YMWLL_Tests/Pods-YMWLL_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		8D9F3DA435AE6412EF785BF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		8D9F3DA435AE6412EF785BF3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		901BD822C83F9A0425C7143D /* Pods-YMWLL_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMWLL_Example.release.xcconfig"; path = "Target Support Files/Pods-YMWLL_Example/Pods-YMWLL_Example.release.xcconfig"; sourceTree = "<group>"; };
 		D8FB11247298FB99B4005D91 /* Pods-YMWLL_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YMWLL_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YMWLL_Tests/Pods-YMWLL_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		EB6E93E0C61125D6062A96E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		EB6E93E0C61125D6062A96E6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				D8FB11247298FB99B4005D91 /* Pods-YMWLL_Tests.debug.xcconfig */,
 				625C633D095B89E7F8107D24 /* Pods-YMWLL_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
