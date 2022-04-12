@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'YMWLL_Example' do
+  pod 'YMWLL', :path => '../'
+
+  target 'YMWLL_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
